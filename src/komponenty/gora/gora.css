@@ -1,0 +1,59 @@
+.gora{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+
+.goraSrodek{
+    flex: 6;
+}
+
+.goraLewo, .goraPrawo{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ikonyGora{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.goraObraz{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit:s cover;
+}
+
+.menu{
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.pozycjaMenu{
+margin-right: 20px;
+font-size: 18px;
+font-weight: 300;
+cursor: pointer;
+}
+
+.ikonaSzukania{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+    
+}
